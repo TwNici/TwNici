@@ -44,13 +44,11 @@
   <img src="https://github-readme-stats.vercel.app/api?username=TwNici&show_icons=true&theme=ayu-mirage&hide_border=true" alt="Total Contributions" height="150"/>
 </p>
 
-<p align="center">
-  <strong>Lines of Code Written in Repositories</strong>
-</p>
-<p align="center">
-  <img src="https://img.shields.io/github/commit-activity/l/TwNici?label=Total%20Lines%20of%20Code&style=for-the-badge&color=4CBB17"/>
-</p>
 
-<p align="center">
-  I don't want contact.
-</p>
+
+![Lines of Code](https://img.shields.io/badge/Lines_of_Code-[TOTAL_LINES]-green)
+
+This project has a total of [TOTAL_LINES] lines of code.
+
+
+
