@@ -1,0 +1,37 @@
+name: Count Lines of Code
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  count_lines:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v2
+
+      - name: Install cloc
+        run: sudo apt-get install cloc
+
+      - name: Count Lines of Code
+        run: cloc . --by-file --exclude-dir=.git,node_modules --out=cloc_result.txt
+
+      - name: Upload results as an artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: cloc-result
+          path: cloc_result.txt
+
+      - name: Display result
+        run: cat cloc_result.txt
+
+      - name: Create badge with total lines of code
+        run: |
+          TOTAL_LINES=$(awk '/^SUM/{print $5}' cloc_result.txt)
+          echo "Total Lines of Code: $TOTAL_LINES"
+          echo "![Lines of Code](https://img.shields.io/badge/Lines_of_Code-$TOTAL_LINES-green)" > lines_of_code_badge.md
+          cat lines_of_code_badge.md
