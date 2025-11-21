@@ -136,11 +136,11 @@
 ## 📦 Lines of Code
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Lines_of_Code-[TOTAL_LINES]-22c55e?style=for-the-badge" alt="Lines of Code" />
+  <img src="https://img.shields.io/badge/Lines_of_Code-197-22c55e?style=for-the-badge" alt="Lines of Code" />
 </p>
 
 <p align="center">
-  This project has a total of <strong>[TOTAL_LINES]</strong> lines of code.
+  This project has a total of <strong>197</strong> lines of code.
 </p>
 
 ---
