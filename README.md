@@ -46,9 +46,9 @@
 
 
 
-![Lines of Code](https://img.shields.io/badge/Lines_of_Code-[TOTAL_LINES]-green)
+![Lines of Code](https://img.shields.io/badge/Lines_of_Code-99-green)
 
-This project has a total of [TOTAL_LINES] lines of code.
+This project has a total of 99 lines of code.
 
 
 
