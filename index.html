@@ -1,1 +1,104 @@
 
+<!doctype html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TwNici · Rust · TS · Java · VBS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Tailwind über CDN (reicht für eine kleine Landing Page) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="min-h-screen bg-slate-950 text-slate-100 antialiased">
+    <div class="relative overflow-hidden">
+      <!-- softer Gradient-Background -->
+      <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,_#22c55e22,_transparent_60%),_radial-gradient(circle_at_bottom,_#0ea5e922,_transparent_55%)]"></div>
+
+      <main class="relative z-10 mx-auto flex min-h-screen max-w-5xl flex-col gap-16 px-4 pb-16 pt-10 sm:px-8 sm:pt-14 lg:pt-20">
+        <!-- HERO -->
+        <section class="flex flex-col items-center gap-8 text-center">
+          <pre class="font-mono text-[10px] leading-[1.1] text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-sky-400 to-fuchsia-500 animate-pulse">
+ /$$$$$$$$            /$$   /$$ /$$           /$$
+|__  $$__/           | $$$ | $$|__/          |__/
+   | $$ /$$  /$$  /$$| $$$$| $$ /$$  /$$$$$$$ /$$
+   | $$| $$ | $$ | $$| $$ $$ $$| $$ /$$_____/| $$
+   | $$| $$ | $$ | $$| $$  $$$$| $$| $$      | $$
+   | $$| $$ | $$ | $$| $$\  $$$| $$| $$      | $$
+   | $$|  $$$$$/$$$$/| $$ \  $$| $$|  $$$$$$$| $$
+   |__/ \_____/\___/ |__/  \__/|__/ \_______/|__/
+          </pre>
+
+          <div class="space-y-3">
+            <h1 class="text-3xl font-semibold tracking-tight sm:text-4xl md:text-5xl">
+              <span class="bg-gradient-to-r from-emerald-400 via-sky-400 to-fuchsia-500 bg-clip-text text-transparent">
+                Rust Backends · TS Frontends
+              </span>
+              <br />
+              <span class="text-slate-200">VBS Curses · HTA UIs</span>
+            </h1>
+            <p class="mx-auto max-w-xl text-sm text-slate-400 sm:text-base">
+              Clean APIs, TUIs, Windows-Scripts – alles in einem Setup,
+              das auch noch ein bisschen illegal aussieht.
+            </p>
+          </div>
+
+          <div class="flex flex-wrap justify-center gap-3">
+            <span class="rounded-full border border-emerald-400/40 bg-emerald-400/10 px-4 py-1 text-xs font-medium text-emerald-300 backdrop-blur">
+              Rust · TypeScript · Java
+            </span>
+            <span class="rounded-full border border-sky-400/40 bg-sky-400/10 px-4 py-1 text-xs font-medium text-sky-300 backdrop-blur animate-bounce">
+              VBS &amp; HTA
+            </span>
+          </div>
+        </section>
+
+        <!-- GRID: Stack -->
+        <section class="grid gap-6 md:grid-cols-3">
+          <div class="rounded-2xl border border-slate-800 bg-slate-900/40 p-5 shadow-lg shadow-emerald-500/10">
+            <h2 class="mb-2 text-sm font-semibold text-emerald-400">Core Stack</h2>
+            <ul class="space-y-1 text-sm text-slate-300">
+              <li>Rust • Axum • SQLx</li>
+              <li>TypeScript • React</li>
+              <li>Java • Spring Boot</li>
+            </ul>
+          </div>
+
+          <div class="rounded-2xl border border-slate-800 bg-slate-900/40 p-5 shadow-lg shadow-sky-500/10">
+            <h2 class="mb-2 text-sm font-semibold text-sky-400">Terminal &amp; TUI</h2>
+            <ul class="space-y-1 text-sm text-slate-300">
+              <li>Ratatui Experiments</li>
+              <li>CLI Tools für Dev &amp; Ops</li>
+              <li>Minimalismus &gt; Bloat</li>
+            </ul>
+          </div>
+
+          <div class="rounded-2xl border border-slate-800 bg-slate-900/40 p-5 shadow-lg shadow-fuchsia-500/10">
+            <h2 class="mb-2 text-sm font-semibold text-fuchsia-400">Scripting Zone</h2>
+            <ul class="space-y-1 text-sm text-slate-300">
+              <li>VBScript für Legacy-Hacks</li>
+              <li>HTA für schnelle GUIs</li>
+              <li>little tools &amp; helper</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- LINKS -->
+        <section class="flex flex-col items-center gap-4">
+          <div class="flex flex-wrap justify-center gap-3 text-sm">
+            <a
+              href="https://github.com/TwNici"
+              class="inline-flex items-center gap-2 rounded-full border border-slate-700 bg-slate-900/70 px-4 py-2 hover:border-emerald-400 hover:bg-slate-900 transition"
+            >
+              <span class="h-2 w-2 rounded-full bg-emerald-400 animate-pulse"></span>
+              <span>GitHub</span>
+            </a>
+            <!-- weitere Links falls du willst -->
+          </div>
+
+          <p class="text-xs text-slate-500">
+            Hosted on GitHub Pages · Tailwind via CDN
+          </p>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
